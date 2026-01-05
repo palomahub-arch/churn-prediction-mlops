@@ -33,6 +33,28 @@ make all
 - [ ] Deploy
 - [ ] Monitoramento
 
+
+## 📊 Análise Exploratória
+
+### Dataset
+- **Fonte:** Kaggle Telco Customer Churn
+- **Tamanho:** 7,043 linhas × 21 colunas
+- **Target:** Churn (Yes/No)
+- **Taxa de Churn:** 26.5%
+
+### Principais Insights
+1. **Desbalanceamento:** Mais clientes não-churn (73.5%)
+2. **Contratos:** Month-to-month tem 3x mais churn
+3. **Serviços:** Fiber optic correlacionado com mais churn
+4. **Pagamento:** Electronic check tem maior taxa de churn
+
+### Tratamentos Necessários
+- [ ] Missing values em TotalCharges
+- [ ] Encoding de variáveis categóricas
+- [ ] Normalização de numéricas
+- [ ] Balanceamento de classes
+ 
+
 ## 🛠️ Stack Tecnológico
 
 - **ML:** Scikit-learn, XGBoost
