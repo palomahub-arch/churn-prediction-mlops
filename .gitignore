@@ -1,0 +1,40 @@
+# MLOps específico
+*.joblib
+*.pkl
+*.h5
+*.pb
+mlruns/
+mlflow.db
+*.dvc
+.dvc/cache
+
+# Dados (não versionar dados brutos no Git)
+data/raw/*
+data/processed/*
+data/external/*
+!data/*/.gitkeep
+
+# Modelos treinados
+models/*.pkl
+models/*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ambientes
+venv/
+env/
+.env
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
